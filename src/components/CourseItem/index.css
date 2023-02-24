@@ -1,0 +1,59 @@
+.ci-success {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cl-img {
+  height: 500px;
+  width: 500px;
+}
+
+.card-1 {
+  height: 500px;
+  width: 500px;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  padding: 20px;
+}
+
+.cl-head {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin: 20px;
+}
+
+.cl-para {
+  font-size: 18px;
+  color: #64748b;
+  margin: 20px;
+}
+
+@media screen and (max-width: 7668px) {
+  .cl-img {
+    height: 300px;
+    width: 100%;
+  }
+  .card-1 {
+    height: 300px;
+    width: 100%;
+  }
+  .ci-success {
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .cl-para {
+    font-size: 14px;
+  }
+  .cl-head {
+    margin: 5px;
+  }
+  .cl-para {
+    margin: 5px;
+  }
+}
